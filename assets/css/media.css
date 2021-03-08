@@ -1,0 +1,123 @@
+@media only screen and (max-width: 1666px) {
+    html {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    html {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    html {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    html {
+        font-size: 0.8em;
+    }
+    nav,
+    header .getStartedButton,
+    .features-shape1,
+    .features-shape2,
+    .process-icon {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .background-shape {
+        min-height: 60rem;
+    }
+/*Home section*/
+    .home-text h1 {
+        font-size: 3.25rem;
+    }
+    .home-figure {
+        width: 100%;
+        margin: 8rem 0 0 0;
+    }
+/*Brands section*/
+    .brands-container {
+        display: flex;
+    }
+    .brands-row {
+        flex-direction: column;
+    }
+    .brands-row:first-of-type {
+        margin-right: 3rem;
+    }
+    .brands-row div {
+        margin-right: 0;
+    }
+    .brands-section > h1 {
+        width: 30rem;
+    }
+/*Features section*/
+    .features-row {
+        flex-direction: column;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    .features-box {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .features-section {
+        margin: 15rem 0;
+    }
+/*Process section*/
+    .process-section {
+         background-image: -webkit-gradient(
+            linear,
+            right top,
+            left bottom,
+            color-stop(0.08, #AB64FB),
+            color-stop(1, #36D3FF)
+        );
+        background-image: -o-linear-gradient(left bottom, #AB64FB 8%, #36D3FF 100%);
+        background-image: -moz-linear-gradient(left bottom, #AB64FB 8%, #36D3FF 100%);
+        background-image: -webkit-linear-gradient(left bottom, #AB64FB 8%, #36D3FF 100%);
+        background-image: -ms-linear-gradient(left bottom, #AB64FB 8%, #36D3FF 100%);
+        background-image: linear-gradient(to left bottom, #AB64FB 8%, #36D3FF 100%);;
+
+        padding: 3rem 0;
+    }
+    .process-box {
+        flex-direction: column-reverse;
+        width: 36.125rem;
+        height: 28.1875rem;
+    }
+    .process-section > p {
+        max-width: 36.125rem;
+     }
+    .process-content {
+        margin: 0;
+    }
+    .process-content h2 {
+        margin-top: 1rem;
+    }
+    .process-figure {
+        width: 23rem;
+    }
+/*Start section*/
+    .start-section {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+    .start-figure {
+        width: 30rem;
+    }
+}
+@media only screen and (max-width: 690px) {
+    .home-text h1 {
+        width: 30rem;
+        text-align: center;
+    }
+}

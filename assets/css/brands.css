@@ -1,0 +1,46 @@
+.brands-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    text-align: center;
+}
+
+.brands-section > h1 {
+    color: #3B3E43;
+    font-weight: 500;
+    width: 60rem;
+    margin: 1.5rem 0 4rem 0;
+}
+
+.brands-section > em {
+    font-size: 1rem;
+    font-style: unset;
+    color: #424A4D;
+    width: 25rem;
+}
+
+.brands-row {
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.brands-row div {
+    width: 9rem;
+    height: 6.25rem;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands-row div:last-of-type {
+    margin-right: 0;
+}
+
+.brands-row div img {
+    width: 100%;
+    height: auto;
+    filter: grayscale();
+}

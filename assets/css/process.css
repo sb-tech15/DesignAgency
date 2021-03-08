@@ -1,0 +1,100 @@
+.process-section {
+    height: 102.5rem;
+    width: 100%;
+    background: url(../img/bg_02.svg) center center no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-section > h1,
+.process-section > p {
+    color: white;
+    font-weight: 500;
+}
+
+.process-section > h1 {
+    margin: 1.5rem 0 2.5rem 0;
+}
+
+.process-section > p {
+    text-align: center;
+    width: 45rem;
+    font-size: 1.25rem;
+}
+
+/* boxes */
+
+.process-box {
+    display: flex;
+    width: 73.125rem;
+    height: 20.1875rem;
+    background-color: #F2F1F8;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* figure */
+
+.process-figure {
+    width: 30rem;
+    height: 16.875rem;
+    display: flex;
+    align-items: center;
+}
+
+.process-figure img {
+    width: 100%;
+    height: auto;
+}
+
+/* content */
+
+.process-content {
+    margin-left: 3rem;
+}
+
+/*icons*/
+
+.process-icon {
+    width: 3.125rem;
+    height: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    border-radius: 30%;
+}
+
+.process-icon img {
+    width: 54%;
+    height: 54%;
+}
+
+.pi1 {
+    background-color: #DAE6FF;
+}
+
+.pi2 {
+    background-color: #E9E5FF;
+}
+
+.pi3 {
+    background-color: #CEEDFF;
+}
+
+/*text content*/
+
+.process-content p {
+    width: 33.125rem;
+    color: #595E64;
+}
+
+.process-content h2 {
+    color: #3B3E43;
+    font-size: 1.375rem;
+    margin: 1.5rem 0 1.25rem 0;
+}

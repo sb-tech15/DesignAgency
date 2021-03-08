@@ -1,0 +1,60 @@
+* {
+    list-style: none;
+}
+
+body {
+    background-color: #F2F1F8;
+    font-family: "DM Sans";
+}
+
+a {
+    color: white;
+}
+
+.getStartedButton {
+    padding: 1.5em 3.5em;
+    background-color: white;
+    color: #57B3FE;
+    border-radius: 1.875rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header *,
+main * {
+    z-index: 1;
+}
+
+.h-gr {
+    color: #00A077;
+    font-size: 0.75rem; 
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    font-weight: 500;
+}
+
+.h-wh {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.2em;
+}
+
+p,
+em {
+    line-height: 1.5em;
+}

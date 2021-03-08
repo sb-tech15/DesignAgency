@@ -1,0 +1,48 @@
+footer {
+    height: 15.625rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer > div {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 100%;
+}
+
+footer .logo {
+    margin: 0;
+    width: 70%;
+}
+
+.footer-up,
+.footer-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-up {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom:solid 0.1rem white;
+}
+
+.footer-up > ul {
+    display: flex;
+    font-size: 1.25rem;
+}
+
+.footer-up > ul li {
+    margin-left: 1rem;
+}
+
+.footer-down div a {
+    margin-left: 1.5rem;
+}
+
+.footer-up nav {
+    margin-right: 5rem;
+}

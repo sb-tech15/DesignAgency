@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+/*MENU*/
+nav > ul {
+    display: flex;
+}
+
+nav > ul li {
+    margin-right: 2rem;
+}
+
+nav > ul li:last-of-type {
+    margin-right: 0;
+}
+
+.marRight {
+    margin-right: 3rem;
+}
+
+/*LOGO*/
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.5rem;
+    width: 16rem;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.hamburger {
+    font-size: 3rem;
+    margin-right: 2rem;
+    color: white;
+    display: none;
+}
